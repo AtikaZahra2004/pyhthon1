@@ -6,9 +6,9 @@
 
 
 #int
-# y=eval(input('enter any value')) 
-# print(y)
-# print(type(y))
+y=eval(input('enter any value')) 
+print(y)
+print(type(y))
 
 
 # r='python'

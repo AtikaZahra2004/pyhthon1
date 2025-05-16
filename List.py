@@ -55,25 +55,36 @@ t1=[10,20,30,40]
 print(sys.getsizeof(t))
 print(sys.getsizeof(t1))
 
-#dictionry------collection of key value pairs
-#where key and value supported , 
-#  reperented in {} with comma seprated pairs ,
-#  indexing supported  ,,
-#  slicing not supported,
-#  maped data type,
-#  key must be unique,
-#  value may be duplicate,
-#  mutable in nature
 
-d={'name':'atika' ,'age':20,'course':'bsc'}
-print(d)
-print(type(d))
-print(id(d))
-#inbulit function
-#print(max(d))----value ko
-#print(min(d))---key k dekhaega
-#print(sum(d))----error
-print(len(d))
-print(type(d))
-print(id(d))
 
+#append method:---last m 1 elemnt ko add krta 
+l=[1,2,3,4,5,6,7]
+l.append(10)
+print(l)
+
+l=[1,2,3,4,5,6,7]
+t1=(20,30)
+t2=[50,40]
+s='python'
+l.extend(t1)
+l.extend(t2)
+l.extend(s)
+print(l)
+
+#EXTEND METHOD---multiple element ko add karta h
+l=[1,2,3,4,5]
+s1='pyhton'
+s2='java'
+l.extend(s1)
+l.extend(s2)
+print(l)
+
+#INSERT METHOD
+l=[1,2,3,4,5]
+a=[6,7,8,9,0]
+a1=['pyhton','java','php']
+l.insert(0,'a')
+a.insert(10,'a')
+a1.insert(5,2)
+print(a1)
+print(a)

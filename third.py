@@ -25,3 +25,6 @@ print(type(d))
 #sets
 f={'atika','priya','aditya'}
 print(type(f))
+
+
+
